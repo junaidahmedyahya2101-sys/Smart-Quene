@@ -1,0 +1,46 @@
+:root {
+  /* Surface & Background Colors */
+  --bg-dark: #090d16;
+  --bg-card: #131b2e;
+  --bg-card-hover: #1c2742;
+  --bg-glass: rgba(19, 27, 46, 0.7);
+
+  /* Primary Accent & Brand */
+  --accent-blue: #38bdf8;
+  --accent-blue-glow: rgba(56, 189, 248, 0.25);
+  --accent-cyan: #22d3ee;
+
+  /* Queue Status Colors */
+  --status-normal: #10b981;  /* Green */
+  --status-normal-bg: rgba(16, 185, 129, 0.12);
+
+  --status-busy: #f59e0b;    /* Orange/Amber */
+  --status-busy-bg: rgba(245, 158, 11, 0.12);
+
+  --status-high: #ef4444;    /* Red */
+  --status-high-bg: rgba(239, 68, 68, 0.12);
+
+  /* Text Colors */
+  --text-main: #f9fafb;
+  --text-muted: #9ca3af;
+  --text-subtle: #6b7280;
+
+  /* Typography Sizes */
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-md: 1rem;
+  --font-lg: 1.25rem;
+  --font-xl: 1.75rem;
+  --font-giant: 3.5rem;
+
+  /* Radius & Borders */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --border-light: 1px solid rgba(255, 255, 255, 0.08);
+  --border-accent: 1px solid rgba(56, 189, 248, 0.3);
+
+  /* Shadows & Blur */
+  --shadow-card: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
+  --backdrop-blur: blur(12px);
+}
